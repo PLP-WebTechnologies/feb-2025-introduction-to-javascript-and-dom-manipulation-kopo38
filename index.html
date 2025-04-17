@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        #dynamicText {
+            margin: 20px 0;
+            font-size: 1.2em;
+        }
+        .item {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> THapelo</h1>
+    </header>
+    <main class="container">
+        <section>
+            <p id="dynamicText">Click the button to change this text!</p>
+            <button id="changeTextBtn">Change Text</button>
+            <button id="toggleStyleBtn">Toggle Style</button>
+            <button id="addItemBtn">Add Item</button>
+            <button id="removeItemBtn">Remove Last Item</button>
+        </section>
+        <article id="itemList">
+            <h2>Dynamic Item List</h2>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2025 DOM Demo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
